@@ -1,0 +1,12 @@
+{
+  "name": "carebridge-platform",
+  "version": "1.0.0",
+  "description": "Elderly Care & Medication Management Platform",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "dev:backend": "cd backend && npm start",
+    "dev:frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && node src/seeds/seedData.js",
+    "build": "cd frontend && npm run build"
+  }
+}
