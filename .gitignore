@@ -6,3 +6,11 @@ dist/
 **/dist/
 backend/data/
 .DS_Store
+
+# Local DB data and logs
+backend/data/
+*.log
+
+# Local DB data and logs
+backend/data/
+*.log
